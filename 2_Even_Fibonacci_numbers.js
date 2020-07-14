@@ -1,18 +1,19 @@
 function euler() {
 	var a = 0;
-  var b = 1;
-  var c = a + b;
+	var b = 1;
+	var c = a + b;
 	let sum = 0;
   
 	while (c < 4000000) {
-  c = a + b;
-	  if (c % 2 === 0)
-      sum = sum + c;
-    a = b;
-    b = c;
+	  c = a + b;
+	  
+		if (c % 2 === 0)
+      		sum = sum + c;
+    	a = b;
+    	b = c;
 	}
 	return sum;
-  }
+}
 
  /* 
   Ma solution en Javascript:
