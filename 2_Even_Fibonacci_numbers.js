@@ -3,14 +3,14 @@ function euler() {
 	var b = 1;
 	var c = a + b;
 	let sum = 0;
-  
+	
 	while (c < 4000000) {
-	  c = a + b;
+		c = a + b;
 	  
 		if (c % 2 === 0)
-      		sum = sum + c;
-    	a = b;
-    	b = c;
+      			sum = sum + c;
+    		a = b;
+    		b = c;
 	}
 	return sum;
 }
