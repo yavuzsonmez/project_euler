@@ -2,7 +2,7 @@ function euler() {
 	var a = 0;
 	var b = 1;
 	var c = a + b;
-	let sum = 0;
+	var sum = 0;
 	
 	while (c < 4000000) {
 		c = a + b;
