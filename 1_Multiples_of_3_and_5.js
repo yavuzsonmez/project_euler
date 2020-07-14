@@ -1,17 +1,17 @@
 function euler() {
 	let i = 999;
 	let sum = 0;
-  
+	
 	while (i > 0) {
-	  if (Number.isInteger(i / 3) || Number.isInteger(i / 5)){
-		sum += i;
-		i--;
-	  }
-	  else
-		i--;
+		if (Number.isInteger(i / 3) || Number.isInteger(i / 5)){
+			sum += i;
+			i--;
+		}
+		else
+			i--;
 	}
 	return sum;
-  }
+}
 
  /* 
   Ma solution en Javascript:
