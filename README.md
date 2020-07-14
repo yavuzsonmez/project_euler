@@ -1,5 +1,5 @@
 # Projet Euler
 
-https://projecteuler.net/about
+**Mes exercices du Projet Euler en Javascript**
 
-**Mes exercices du projet euler en Javascript**
+https://projecteuler.net/about
